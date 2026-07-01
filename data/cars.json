@@ -1,0 +1,976 @@
+[
+  {
+    "id": "car-001",
+    "brand": "Maruti Suzuki",
+    "model": "Alto K10",
+    "variant": "VXI",
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 4.2,
+    "priceMaxLakh": 5.8,
+    "seats": 5,
+    "mileage": 24.4,
+    "safetyRating": 2,
+    "tags": [
+      "budget",
+      "city",
+      "first-car"
+    ]
+  },
+  {
+    "id": "car-002",
+    "brand": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "ZXI",
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 6.5,
+    "priceMaxLakh": 9.2,
+    "seats": 5,
+    "mileage": 22.4,
+    "safetyRating": 3,
+    "tags": [
+      "city",
+      "value",
+      "first-car"
+    ]
+  },
+  {
+    "id": "car-003",
+    "brand": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "ZXI+ AMT",
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 8,
+    "priceMaxLakh": 9.8,
+    "seats": 5,
+    "mileage": 21.8,
+    "safetyRating": 3,
+    "tags": [
+      "city",
+      "value"
+    ]
+  },
+  {
+    "id": "car-004",
+    "brand": "Hyundai",
+    "model": "Grand i10 Nios",
+    "variant": "Sportz",
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 6.2,
+    "priceMaxLakh": 8.9,
+    "seats": 5,
+    "mileage": 20.3,
+    "safetyRating": 3,
+    "tags": [
+      "city",
+      "value",
+      "first-car"
+    ]
+  },
+  {
+    "id": "car-005",
+    "brand": "Hyundai",
+    "model": "i20",
+    "variant": "Asta",
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 8.5,
+    "priceMaxLakh": 11.8,
+    "seats": 5,
+    "mileage": 20,
+    "safetyRating": 3,
+    "tags": [
+      "city",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-006",
+    "brand": "Tata",
+    "model": "Tiago",
+    "variant": "XZ+",
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 6.6,
+    "priceMaxLakh": 8.9,
+    "seats": 5,
+    "mileage": 19.9,
+    "safetyRating": 4,
+    "tags": [
+      "city",
+      "value",
+      "safety-first"
+    ]
+  },
+  {
+    "id": "car-007",
+    "brand": "Tata",
+    "model": "Altroz",
+    "variant": "XZ+",
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 7.6,
+    "priceMaxLakh": 10.9,
+    "seats": 5,
+    "mileage": 19.3,
+    "safetyRating": 5,
+    "tags": [
+      "city",
+      "safety-first",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-008",
+    "brand": "Toyota",
+    "model": "Glanza",
+    "variant": "V",
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 7.2,
+    "priceMaxLakh": 10.2,
+    "seats": 5,
+    "mileage": 22.3,
+    "safetyRating": 3,
+    "tags": [
+      "city",
+      "reliability"
+    ]
+  },
+  {
+    "id": "car-009",
+    "brand": "Honda",
+    "model": "Amaze",
+    "variant": "VX",
+    "bodyType": "sedan",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 8,
+    "priceMaxLakh": 10.5,
+    "seats": 5,
+    "mileage": 18.6,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "highway",
+      "reliability"
+    ]
+  },
+  {
+    "id": "car-010",
+    "brand": "Maruti Suzuki",
+    "model": "Dzire",
+    "variant": "ZXI",
+    "bodyType": "sedan",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 7.5,
+    "priceMaxLakh": 10.1,
+    "seats": 5,
+    "mileage": 22.6,
+    "safetyRating": 3,
+    "tags": [
+      "family",
+      "value",
+      "city"
+    ]
+  },
+  {
+    "id": "car-011",
+    "brand": "Hyundai",
+    "model": "Aura",
+    "variant": "SX",
+    "bodyType": "sedan",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 7.8,
+    "priceMaxLakh": 10,
+    "seats": 5,
+    "mileage": 20.5,
+    "safetyRating": 3,
+    "tags": [
+      "family",
+      "value"
+    ]
+  },
+  {
+    "id": "car-012",
+    "brand": "Skoda",
+    "model": "Slavia",
+    "variant": "AMT",
+    "bodyType": "sedan",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 13.5,
+    "priceMaxLakh": 18.5,
+    "seats": 5,
+    "mileage": 18.7,
+    "safetyRating": 5,
+    "tags": [
+      "highway",
+      "premium-feel",
+      "performance"
+    ]
+  },
+  {
+    "id": "car-013",
+    "brand": "Volkswagen",
+    "model": "Virtus",
+    "variant": "GT",
+    "bodyType": "sedan",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 14,
+    "priceMaxLakh": 19.5,
+    "seats": 5,
+    "mileage": 18.1,
+    "safetyRating": 5,
+    "tags": [
+      "highway",
+      "performance",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-014",
+    "brand": "Honda",
+    "model": "City",
+    "variant": "ZX CVT",
+    "bodyType": "sedan",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 14.5,
+    "priceMaxLakh": 18,
+    "seats": 5,
+    "mileage": 18.4,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "highway",
+      "reliability"
+    ]
+  },
+  {
+    "id": "car-015",
+    "brand": "Tata",
+    "model": "Punch",
+    "variant": "Creative+",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 7,
+    "priceMaxLakh": 10.2,
+    "seats": 5,
+    "mileage": 20.1,
+    "safetyRating": 5,
+    "tags": [
+      "city",
+      "safety-first",
+      "value"
+    ]
+  },
+  {
+    "id": "car-016",
+    "brand": "Tata",
+    "model": "Nexon",
+    "variant": "Fearless+",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 9.5,
+    "priceMaxLakh": 15,
+    "seats": 5,
+    "mileage": 17.4,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "safety-first",
+      "city"
+    ]
+  },
+  {
+    "id": "car-017",
+    "brand": "Tata",
+    "model": "Nexon EV",
+    "variant": "Long Range",
+    "bodyType": "suv",
+    "fuelType": "electric",
+    "transmission": "automatic",
+    "priceMinLakh": 14.5,
+    "priceMaxLakh": 19.2,
+    "seats": 5,
+    "mileage": 4.5,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "city",
+      "ev",
+      "safety-first"
+    ]
+  },
+  {
+    "id": "car-018",
+    "brand": "Hyundai",
+    "model": "Venue",
+    "variant": "SX(O)",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 9,
+    "priceMaxLakh": 13.8,
+    "seats": 5,
+    "mileage": 18.2,
+    "safetyRating": 4,
+    "tags": [
+      "city",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-019",
+    "brand": "Hyundai",
+    "model": "Exter",
+    "variant": "SX(O)",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 8.5,
+    "priceMaxLakh": 12.5,
+    "seats": 5,
+    "mileage": 19.4,
+    "safetyRating": 4,
+    "tags": [
+      "city",
+      "value"
+    ]
+  },
+  {
+    "id": "car-020",
+    "brand": "Maruti Suzuki",
+    "model": "Brezza",
+    "variant": "ZXI+",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 9.8,
+    "priceMaxLakh": 14,
+    "seats": 5,
+    "mileage": 19.8,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "city",
+      "value"
+    ]
+  },
+  {
+    "id": "car-021",
+    "brand": "Maruti Suzuki",
+    "model": "Fronx",
+    "variant": "Alpha",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 9.5,
+    "priceMaxLakh": 13.8,
+    "seats": 5,
+    "mileage": 20,
+    "safetyRating": 4,
+    "tags": [
+      "city",
+      "value"
+    ]
+  },
+  {
+    "id": "car-022",
+    "brand": "Kia",
+    "model": "Sonet",
+    "variant": "GTX+",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 11,
+    "priceMaxLakh": 16,
+    "seats": 5,
+    "mileage": 18.4,
+    "safetyRating": 4,
+    "tags": [
+      "performance",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-023",
+    "brand": "Mahindra",
+    "model": "XUV300",
+    "variant": "W8(O)",
+    "bodyType": "suv",
+    "fuelType": "diesel",
+    "transmission": "manual",
+    "priceMinLakh": 10.5,
+    "priceMaxLakh": 14.5,
+    "seats": 5,
+    "mileage": 20,
+    "safetyRating": 5,
+    "tags": [
+      "safety-first",
+      "performance"
+    ]
+  },
+  {
+    "id": "car-024",
+    "brand": "Renault",
+    "model": "Kiger",
+    "variant": "RXZ",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 7.8,
+    "priceMaxLakh": 11.5,
+    "seats": 5,
+    "mileage": 19.9,
+    "safetyRating": 4,
+    "tags": [
+      "value",
+      "city"
+    ]
+  },
+  {
+    "id": "car-025",
+    "brand": "Nissan",
+    "model": "Magnite",
+    "variant": "XV Premium",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 7.8,
+    "priceMaxLakh": 11.8,
+    "seats": 5,
+    "mileage": 19.9,
+    "safetyRating": 4,
+    "tags": [
+      "value",
+      "city"
+    ]
+  },
+  {
+    "id": "car-026",
+    "brand": "Hyundai",
+    "model": "Creta",
+    "variant": "SX(O)",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 14.5,
+    "priceMaxLakh": 20.5,
+    "seats": 5,
+    "mileage": 17.4,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "highway",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-027",
+    "brand": "Kia",
+    "model": "Seltos",
+    "variant": "GTX+",
+    "bodyType": "suv",
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "priceMinLakh": 15,
+    "priceMaxLakh": 21.5,
+    "seats": 5,
+    "mileage": 19.8,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "highway",
+      "performance"
+    ]
+  },
+  {
+    "id": "car-028",
+    "brand": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Alpha Hybrid",
+    "bodyType": "suv",
+    "fuelType": "hybrid",
+    "transmission": "automatic",
+    "priceMinLakh": 17,
+    "priceMaxLakh": 20.5,
+    "seats": 5,
+    "mileage": 27.9,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "highway",
+      "mileage"
+    ]
+  },
+  {
+    "id": "car-029",
+    "brand": "Toyota",
+    "model": "Urban Cruiser Hyryder",
+    "variant": "V Hybrid",
+    "bodyType": "suv",
+    "fuelType": "hybrid",
+    "transmission": "automatic",
+    "priceMinLakh": 17.5,
+    "priceMaxLakh": 21,
+    "seats": 5,
+    "mileage": 27.9,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "reliability",
+      "mileage"
+    ]
+  },
+  {
+    "id": "car-030",
+    "brand": "Tata",
+    "model": "Harrier",
+    "variant": "Fearless+",
+    "bodyType": "suv",
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "priceMinLakh": 22,
+    "priceMaxLakh": 27.5,
+    "seats": 5,
+    "mileage": 16.8,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "highway",
+      "safety-first"
+    ]
+  },
+  {
+    "id": "car-031",
+    "brand": "Mahindra",
+    "model": "XUV700",
+    "variant": "AX7L",
+    "bodyType": "suv",
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "priceMinLakh": 20.5,
+    "priceMaxLakh": 26,
+    "seats": 7,
+    "mileage": 16,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "highway",
+      "performance",
+      "safety-first"
+    ]
+  },
+  {
+    "id": "car-032",
+    "brand": "Mahindra",
+    "model": "Scorpio-N",
+    "variant": "Z8L",
+    "bodyType": "suv",
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "priceMinLakh": 19.5,
+    "priceMaxLakh": 24.5,
+    "seats": 7,
+    "mileage": 15.2,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "offroad",
+      "performance"
+    ]
+  },
+  {
+    "id": "car-033",
+    "brand": "MG",
+    "model": "Hector",
+    "variant": "Sharp",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 18,
+    "priceMaxLakh": 22,
+    "seats": 5,
+    "mileage": 14.1,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-034",
+    "brand": "Skoda",
+    "model": "Kushaq",
+    "variant": "Monte Carlo",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 16,
+    "priceMaxLakh": 20.5,
+    "seats": 5,
+    "mileage": 18,
+    "safetyRating": 5,
+    "tags": [
+      "highway",
+      "performance",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-035",
+    "brand": "Volkswagen",
+    "model": "Taigun",
+    "variant": "GT Plus",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 16.5,
+    "priceMaxLakh": 21.5,
+    "seats": 5,
+    "mileage": 18,
+    "safetyRating": 5,
+    "tags": [
+      "highway",
+      "performance",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-036",
+    "brand": "Maruti Suzuki",
+    "model": "Ertiga",
+    "variant": "ZXI+",
+    "bodyType": "muv",
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "priceMinLakh": 9.5,
+    "priceMaxLakh": 13,
+    "seats": 7,
+    "mileage": 20.3,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "long-drive",
+      "value"
+    ]
+  },
+  {
+    "id": "car-037",
+    "brand": "Toyota",
+    "model": "Innova Crysta",
+    "variant": "GX",
+    "bodyType": "muv",
+    "fuelType": "diesel",
+    "transmission": "manual",
+    "priceMinLakh": 20.5,
+    "priceMaxLakh": 24,
+    "seats": 7,
+    "mileage": 15.6,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "long-drive",
+      "reliability"
+    ]
+  },
+  {
+    "id": "car-038",
+    "brand": "Toyota",
+    "model": "Innova Hycross",
+    "variant": "ZX Hybrid",
+    "bodyType": "muv",
+    "fuelType": "hybrid",
+    "transmission": "automatic",
+    "priceMinLakh": 24,
+    "priceMaxLakh": 31,
+    "seats": 7,
+    "mileage": 16.3,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "long-drive",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-039",
+    "brand": "Kia",
+    "model": "Carens",
+    "variant": "Luxury Plus",
+    "bodyType": "muv",
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "priceMinLakh": 14,
+    "priceMaxLakh": 19.5,
+    "seats": 6,
+    "mileage": 19,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "long-drive"
+    ]
+  },
+  {
+    "id": "car-040",
+    "brand": "Maruti Suzuki",
+    "model": "XL6",
+    "variant": "Alpha",
+    "bodyType": "muv",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 12,
+    "priceMaxLakh": 15.5,
+    "seats": 6,
+    "mileage": 20,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-041",
+    "brand": "Skoda",
+    "model": "Superb",
+    "variant": "L&K",
+    "bodyType": "sedan",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 32,
+    "priceMaxLakh": 36,
+    "seats": 5,
+    "mileage": 14.6,
+    "safetyRating": 5,
+    "tags": [
+      "premium-feel",
+      "performance",
+      "highway"
+    ]
+  },
+  {
+    "id": "car-042",
+    "brand": "Honda",
+    "model": "Elevate",
+    "variant": "ZX CVT",
+    "bodyType": "suv",
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "priceMinLakh": 15.5,
+    "priceMaxLakh": 19.5,
+    "seats": 5,
+    "mileage": 15.2,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "reliability"
+    ]
+  },
+  {
+    "id": "car-043",
+    "brand": "Hyundai",
+    "model": "Alcazar",
+    "variant": "Signature(O)",
+    "bodyType": "suv",
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "priceMinLakh": 20,
+    "priceMaxLakh": 25.5,
+    "seats": 7,
+    "mileage": 18.1,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "long-drive",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-044",
+    "brand": "Tata",
+    "model": "Safari",
+    "variant": "Adventure+",
+    "bodyType": "suv",
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "priceMinLakh": 21.5,
+    "priceMaxLakh": 27,
+    "seats": 7,
+    "mileage": 16.1,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "long-drive",
+      "safety-first"
+    ]
+  },
+  {
+    "id": "car-045",
+    "brand": "Tata",
+    "model": "Punch EV",
+    "variant": "Empowered+",
+    "bodyType": "suv",
+    "fuelType": "electric",
+    "transmission": "automatic",
+    "priceMinLakh": 11,
+    "priceMaxLakh": 15.5,
+    "seats": 5,
+    "mileage": 5.2,
+    "safetyRating": 5,
+    "tags": [
+      "city",
+      "ev",
+      "value"
+    ]
+  },
+  {
+    "id": "car-046",
+    "brand": "MG",
+    "model": "Comet EV",
+    "variant": "Pace",
+    "bodyType": "hatchback",
+    "fuelType": "electric",
+    "transmission": "automatic",
+    "priceMinLakh": 7,
+    "priceMaxLakh": 9,
+    "seats": 4,
+    "mileage": 7.5,
+    "safetyRating": 3,
+    "tags": [
+      "city",
+      "ev",
+      "first-car"
+    ]
+  },
+  {
+    "id": "car-047",
+    "brand": "Hyundai",
+    "model": "Creta Electric",
+    "variant": "Excellence",
+    "bodyType": "suv",
+    "fuelType": "electric",
+    "transmission": "automatic",
+    "priceMinLakh": 18,
+    "priceMaxLakh": 22.5,
+    "seats": 5,
+    "mileage": 5.5,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "ev",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-048",
+    "brand": "Mahindra",
+    "model": "BE 6",
+    "variant": "Pack Three",
+    "bodyType": "suv",
+    "fuelType": "electric",
+    "transmission": "automatic",
+    "priceMinLakh": 20,
+    "priceMaxLakh": 26.5,
+    "seats": 5,
+    "mileage": 5,
+    "safetyRating": 5,
+    "tags": [
+      "family",
+      "ev",
+      "performance"
+    ]
+  },
+  {
+    "id": "car-049",
+    "brand": "Tata",
+    "model": "Curvv EV",
+    "variant": "Accomplished+",
+    "bodyType": "suv",
+    "fuelType": "electric",
+    "transmission": "automatic",
+    "priceMinLakh": 17,
+    "priceMaxLakh": 21.5,
+    "seats": 5,
+    "mileage": 5.8,
+    "safetyRating": 5,
+    "tags": [
+      "city",
+      "ev",
+      "premium-feel"
+    ]
+  },
+  {
+    "id": "car-050",
+    "brand": "Maruti Suzuki",
+    "model": "WagonR",
+    "variant": "VXI CNG",
+    "bodyType": "hatchback",
+    "fuelType": "cng",
+    "transmission": "manual",
+    "priceMinLakh": 6.8,
+    "priceMaxLakh": 8.5,
+    "seats": 5,
+    "mileage": 32.5,
+    "safetyRating": 2,
+    "tags": [
+      "budget",
+      "city",
+      "value"
+    ]
+  },
+  {
+    "id": "car-051",
+    "brand": "Maruti Suzuki",
+    "model": "Ertiga",
+    "variant": "VXI CNG",
+    "bodyType": "muv",
+    "fuelType": "cng",
+    "transmission": "manual",
+    "priceMinLakh": 10,
+    "priceMaxLakh": 12.5,
+    "seats": 7,
+    "mileage": 26.1,
+    "safetyRating": 4,
+    "tags": [
+      "family",
+      "budget",
+      "long-drive"
+    ]
+  },
+  {
+    "id": "car-052",
+    "brand": "Hyundai",
+    "model": "Aura",
+    "variant": "S CNG",
+    "bodyType": "sedan",
+    "fuelType": "cng",
+    "transmission": "manual",
+    "priceMinLakh": 8,
+    "priceMaxLakh": 9.8,
+    "seats": 5,
+    "mileage": 28.1,
+    "safetyRating": 3,
+    "tags": [
+      "budget",
+      "value"
+    ]
+  }
+]
